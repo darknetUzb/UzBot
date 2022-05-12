@@ -2,7 +2,9 @@ import asyncio
 import time
 from telethon import TelegramClient, events, sync
 import random 
+import os, sys
 import requests
+os.system("termux-open-url https://t.me/darknetUzb")
 ip_id=input("\033[1;31mAPI_id kodini kiriting:")
 ip_hash=input("API_hash kodini kiriting:")
 
